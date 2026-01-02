@@ -1,0 +1,15 @@
+{
+    "CAMeL-Lab/bert-base-arabic-camelbert-mix" : {"dialect": "Mixed"},
+    "CAMeL-Lab/bert-base-arabic-camelbert-msa" : {"dialect": "MSA"},
+    "CAMeL-Lab/bert-base-arabic-camelbert-da" : {"dialect": "DA"},
+    "faisalq/SaudiBERT" : {"dialect": "Saudi"},
+    "SI2M-Lab/DarijaBERT" : {"dialect": "Morocco"},
+    "faisalq/EgyBERT" : {"dialect": "Egypt"},
+    "alger-ia/dziribert" : {"dialect": "Algeria"},
+    "reemalyami/AraRoBERTa-SA" : {"dialect": "Saudi"},
+    "reemalyami/AraRoBERTa-EGY" : {"dialect": "Egypt"},
+    "reemalyami/AraRoBERTa-LB" : {"dialect": "Lebanon"},
+    "reemalyami/AraRoBERTa-OM" : {"dialect": "Oman"},
+    "reemalyami/AraRoBERTa-DZ" : {"dialect": "Algeria"},
+    "reemalyami/AraRoBERTa-JO" : {"dialect": "Jordan"}
+}

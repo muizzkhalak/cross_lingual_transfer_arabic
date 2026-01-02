@@ -1,0 +1,171 @@
+{
+    "Aleppo" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Syria"
+    },
+    "Alexandria" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "faisalq/EgyBERT",
+            "reemalyami/AraRoBERTa-EGY"
+        ],
+        "dialect" : "Egypt"
+    },
+    "Algiers" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "alger-ia/dziribert",
+            "reemalyami/AraRoBERTa-DZ"
+        ],
+        "dialect" : "Algeria"
+    },
+    "Amman" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "reemalyami/AraRoBERTa-JO"
+        ],
+        "dialect" : "Jordan"
+    },
+    "Aswan" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "faisalq/EgyBERT",
+            "reemalyami/AraRoBERTa-EGY"
+        ],
+        "dialect" : "Egypt"
+    },
+    "Baghdad" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Iraq"
+    },
+    "Basra" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Iraq"
+    },
+    "Beirut" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "reemalyami/AraRoBERTa-LB"
+        ],
+        "dialect" : "Lebanon"
+    },
+    "Benghazi" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Libya"
+    },
+    "Cairo" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "faisalq/EgyBERT",
+            "reemalyami/AraRoBERTa-EGY"
+        ],
+        "dialect" : "Egypt"
+    },
+    "Damascus" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Syria"
+    },
+    "Doha" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Qatar"
+    },
+    "Fes" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "SI2M-Lab/DarijaBERT"
+        ],
+        "dialect" : "Morocco"
+    },
+    "Jeddah" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "faisalq/SaudiBERT",
+            "reemalyami/AraRoBERTa-SA"
+        ],
+        "dialect" : "Saudi"
+    },
+    "Jerusalem" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Palestine"
+    },
+    "Khartoum" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Sudan"
+    },
+    "Mosul" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Iraq"
+    },
+    "Muscat" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "reemalyami/AraRoBERTa-OM"
+        ],
+        "dialect" : "Oman"
+    },
+    "Rabat" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "SI2M-Lab/DarijaBERT"
+        ],
+        "dialect" : "Morocco"
+    },
+    "Riyadh" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "faisalq/SaudiBERT",
+            "reemalyami/AraRoBERTa-SA"
+        ],
+        "dialect" : "Saudi"
+    },
+    "Salt" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da",
+            "reemalyami/AraRoBERTa-JO"
+        ],
+        "dialect" : "Jordan"
+    },
+    "Sanaa" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Yemen"
+    },
+    "Sfax" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Tunisia"
+    },
+    "Tripoli" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Libya"
+    },
+    "Tunis" : {
+        "models" : [
+            "CAMeL-Lab/bert-base-arabic-camelbert-da"
+        ],
+        "dialect" : "Tunisia"
+    }
+
+}
