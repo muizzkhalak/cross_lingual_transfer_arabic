@@ -86,17 +86,17 @@ pip install -r requirements.txt
 
 ```bash
 # Run experiments on MSA datasets
-python run_probing_experiment.py --experiment-type MSA
+python run_probing_experiment.py --experiment-type MSA --results-dir results_msa
 
 # Run experiments on Dialectal datasets with balanced datasets and skipping irrelevant models for dataset
-python run_probing_experiment.py --experiment-type Dialect --balanced --skip-irrelevant
+python run_probing_experiment.py --experiment-type Dialect --results-dir results_dialects_balanced
 ```
 
 ### 3. Run CKA Analysis
 
 ```bash
 # Run CKA analysis for all scenarios
-python run_cka_experiment.py
+python run_cka_experiment.py --results-dir results_cka
 ```
 
 ### Command Line Arguments
