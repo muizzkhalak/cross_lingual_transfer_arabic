@@ -182,7 +182,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @misc{cross_lingual_transfer_arabic,
-  title={Cross-Lingual Transfer Learning for Arabic Dialects},
+  title={From FusHa to Folk: Exploring Cross-Lingual Transfer in Arabic Language Models},
   author={[Your Name]},
   year={2026}
 }
