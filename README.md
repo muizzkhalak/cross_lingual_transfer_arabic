@@ -1,6 +1,6 @@
 # From FusHa to Folk: Exploring Cross-Lingual Transfer in Arabic Language Models
 
-This repository contains experiments and analysis tools for studying cross-lingual transfer learning across Arabic dialects using various pre-trained language models. The project focuses on evaluating how well models trained on Modern Standard Arabic (MSA) and specific Arabic dialects transfer to other dialects through probing tasks and Centered Kernel Alignment (CKA) analysis.
+This repository contains experiments and analysis tools for studying cross-lingual transfer learning across Arabic pre-trained language models. The project focuses on evaluating how well models trained on Modern Standard Arabic (MSA) and specific Arabic dialects transfer across each other through probing tasks and Centered Kernel Alignment (CKA) analysis.
 
 ## 🔍 Overview
 
