@@ -99,6 +99,24 @@ python run_probing_experiment.py --experiment-type Dialect --balanced --skip-irr
 python run_cka_experiment.py
 ```
 
+### Command Line Arguments
+
+**Probing Experiments:**
+- `--models-file`: Model configuration file
+- `--data-dir`: Input data directory
+- `--results-dir`: Output results directory
+- `--task`: Specific task (NER/POS/Sentiment)
+- `--dialect`: Target dialect
+- `--balanced`: Use balanced datasets
+- `--skip-irrelevant`: Skip irrelevant models
+
+**CKA Experiments:**
+- `--models-file`: Dialect model configurations
+- `--msa-model`: Reference MSA model
+- `--corpus-dir`: MADAR corpus directory
+- `--scenario`: Analysis scenario (1/2/3/all)
+- `--pooling`: Sentence pooling strategy
+
 ## 📋 Experiment Types
 
 ### Probing Experiments
@@ -139,24 +157,6 @@ Measure representational similarity between models:
     "SI2M-Lab/DarijaBERT": {"dialect": "Morocco"}
 }
 ```
-
-### Command Line Arguments
-
-**Probing Experiments:**
-- `--models-file`: Model configuration file
-- `--data-dir`: Input data directory
-- `--results-dir`: Output results directory
-- `--task`: Specific task (NER/POS/Sentiment)
-- `--dialect`: Target dialect
-- `--balanced`: Use balanced datasets
-- `--skip-irrelevant`: Skip irrelevant models
-
-**CKA Experiments:**
-- `--models-file`: Dialect model configurations
-- `--msa-model`: Reference MSA model
-- `--corpus-dir`: MADAR corpus directory
-- `--scenario`: Analysis scenario (1/2/3/all)
-- `--pooling`: Sentence pooling strategy
 
 ## 📈 Results and Analysis
 
