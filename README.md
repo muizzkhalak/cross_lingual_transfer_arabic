@@ -89,7 +89,7 @@ pip install -r requirements.txt
 python run_probing_experiment.py --experiment-type MSA
 
 # Run experiments on Dialectal datasets with balanced datasets and skipping irrelevant models for dataset
-python run_probing_experiment.py --experiment-type MSA --balanced --skip-irrelevant
+python run_probing_experiment.py --experiment-type Dialect --balanced --skip-irrelevant
 ```
 
 ### 3. Run CKA Analysis
