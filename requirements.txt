@@ -19,3 +19,9 @@ plotly
 tqdm
 camel_tools
 geopy
+scipy
+math
+emoji
+json
+seaborn
+matplotlib
