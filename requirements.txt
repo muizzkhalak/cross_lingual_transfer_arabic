@@ -25,3 +25,4 @@ emoji
 json
 seaborn
 matplotlib
+ipykernel
