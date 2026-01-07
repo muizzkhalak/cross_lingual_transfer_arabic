@@ -17,7 +17,7 @@ openpyxl
 librosa
 plotly
 tqdm
-camel_tools
+camel-tools
 geopy
 scipy
 math
