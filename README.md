@@ -175,3 +175,25 @@ Results are saved in JSON format and include:
 - `dataset_cka.ipynb`: CKA dataset preparation
 - `dataset_probing_dialects.ipynb`: Probing dataset preparation
 - `visualizations.ipynb`: Result visualization
+
+
+## 📝 Citation
+
+If you use this in your research, please cite:
+
+```bibtex
+@misc{cross_lingual_transfer_arabic,
+  title={From FusHa to Folk: Exploring Cross-Lingual Transfer in Arabic Language Models},
+  author={Khalak, Abdulmuizz and Issam, Abderrahmane and Spanakis, Gerasimos},
+  year={2026}
+}
+```
+
+
+## 📞 Contact
+
+For questions or collaboration opportunities, please open an issue.
+
+---
+
+**Keywords**: Arabic NLP, Cross-lingual Transfer Learning, Dialectal Arabic, BERT, Probing Tasks, CKA Analysis, Named Entity Recognition, Part-of-Speech Tagging, Sentiment Analysis
