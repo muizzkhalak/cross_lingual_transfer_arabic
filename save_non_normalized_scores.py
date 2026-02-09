@@ -19,7 +19,7 @@ def parse_arguments():
     parser.add_argument(
         '--results-dir', 
         type=str,
-        help='Directory to save results'
+        help='Directory to load results from'
     )
 
     return parser.parse_args()
