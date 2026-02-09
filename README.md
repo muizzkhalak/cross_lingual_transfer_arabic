@@ -95,6 +95,7 @@ python run_probing_experiment.py --experiment-type MSA --results-dir "results/re
 python run_probing_experiment.py --experiment-type Dialect --results-dir "results/results_dialects_balanced"
 
 # Run the following command to save the non-normalized scores of experiments on Dialectal Datasets
+# Note: Run it only after previous command is completed and all the results are stored 
 python save_non_normalized_scores.py --results-dir "results/results_dialects_balanced"
 ```
 
