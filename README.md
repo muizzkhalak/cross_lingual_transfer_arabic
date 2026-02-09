@@ -95,7 +95,7 @@ python run_probing_experiment.py --experiment-type MSA --results-dir "results/re
 python run_probing_experiment.py --experiment-type Dialect --results-dir "results/results_dialects_balanced"
 
 # Run the following command to save the non-normalized scores of experiments on Dialectal Datasets
-python save_non_normalized_scores.py
+python save_non_normalized_scores.py --results-dir "results/results_dialects_balanced"
 ```
 
 ### 3. Run CKA Analysis

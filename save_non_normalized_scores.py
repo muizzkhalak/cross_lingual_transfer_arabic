@@ -6,6 +6,23 @@ import os
 import json
 import glob
 import pandas as pd
+import argparse
+
+
+def parse_arguments():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(
+        description="Run probing experiments for Arabic dialect models",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
+
+    parser.add_argument(
+        '--results-dir', 
+        type=str,
+        help='Directory to save results'
+    )
+
+    return parser.parse_args()
 
 
 def load_overall_records(results_dir: str) -> pd.DataFrame:
@@ -162,9 +179,16 @@ def max_f1_table_all_models_non_normalized(
 
     return wide
 
+
 def main():
+
+    args = parse_arguments()
+
+    if not args.results_dir:
+        raise ValueError("Results directory must be specified with --results-dir")
+    
     # Build the DataFrame
-    results_dir = "results/results_dialects_balanced"
+    results_dir = args.results_dir
     df_overall_balanced = load_overall_records(results_dir)
 
     # Order rows and preview
