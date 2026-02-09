@@ -72,7 +72,7 @@ def parse_arguments():
     parser.add_argument(
         '--results-dir', 
         type=str, 
-        default='results_cka',
+        default='results/results_cka',
         help='Directory to save CKA results'
     )
     

@@ -20,9 +20,7 @@ tqdm
 camel-tools
 geopy
 scipy
-math
 emoji
-json
 seaborn
 matplotlib
 ipykernel

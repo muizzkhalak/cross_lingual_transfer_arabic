@@ -46,8 +46,7 @@ def parse_arguments():
     
     parser.add_argument(
         '--results-dir', 
-        type=str, 
-        default='results_dialects',
+        type=str,
         help='Directory to save results'
     )
 
@@ -185,11 +184,10 @@ def should_skip_dialect(model_dialect, dialect, skip_irrelevant):
     return model_dialect not in ["Mixed", "MSA", "DA", dialect]
 
 
-def get_results_path(results_dir, model, balanced):
+def get_results_path(results_dir, model):
     """Get the path for results file."""
-    suffix = "_balanced" if balanced else ""
     model_name = model.split('/')[-1].replace('-', '_')
-    return f'{results_dir}{suffix}/results_{model_name}.json'
+    return f'{results_dir}/results_{model_name}.json'
 
 
 def load_existing_results(results_path, model):
@@ -284,6 +282,9 @@ def run_probing_experiment(model, task, dialect, dataset, data_dir, device,
 def main():
     """Main function."""
     args = parse_arguments()
+
+    if not args.results_dir:
+        raise ValueError("Results directory must be specified with --results-dir")
     
     if args.verbose:
         print(f"Arguments: {vars(args)}")
@@ -329,7 +330,7 @@ def main():
     
     for model in model_file:
         model_dialect = model_file[model]['dialect']
-        results_path = get_results_path(args.results_dir, model, args.balanced)
+        results_path = get_results_path(args.results_dir, model)
         results = load_existing_results(results_path, model)
         
         if args.verbose:
