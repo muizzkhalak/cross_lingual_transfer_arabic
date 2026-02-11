@@ -188,10 +188,14 @@ Results are saved in JSON format and include:
 If you use this in your research, please cite:
 
 ```bibtex
-@misc{cross_lingual_transfer_arabic,
-  title={From FusHa to Folk: Exploring Cross-Lingual Transfer in Arabic Language Models},
-  author={Khalak, Abdulmuizz and Issam, Abderrahmane and Spanakis, Gerasimos},
-  year={2026}
+@misc{khalak2026fushafolkexploringcrosslingual,
+      title={From FusHa to Folk: Exploring Cross-Lingual Transfer in Arabic Language Models}, 
+      author={Abdulmuizz Khalak and Abderrahmane Issam and Gerasimos Spanakis},
+      year={2026},
+      eprint={2602.09826},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.09826}, 
 }
 ```
 
