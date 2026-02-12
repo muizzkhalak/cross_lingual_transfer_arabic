@@ -199,11 +199,6 @@ If you use this in your research, please cite:
 }
 ```
 
-
-## 📞 Contact
-
-For questions or collaboration opportunities, please open an issue.
-
 ---
 
 **Keywords**: Arabic NLP, Cross-lingual Transfer Learning, Dialectal Arabic, BERT, Probing Tasks, CKA Analysis, Named Entity Recognition, Part-of-Speech Tagging, Sentiment Analysis
