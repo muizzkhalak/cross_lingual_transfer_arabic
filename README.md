@@ -2,6 +2,8 @@
 
 This repository contains experiments and analysis tools for studying cross-lingual transfer learning across Arabic pre-trained language models. The project focuses on evaluating how well models trained on Modern Standard Arabic (MSA) and specific Arabic dialects transfer across each other through probing tasks and Centered Kernel Alignment (CKA) analysis.
 
+![alt text](image.png)
+
 ## 🔍 Overview
 
 Arabic is a morphologically rich language with significant dialectal variations across different regions. This project investigates:
