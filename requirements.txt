@@ -24,3 +24,8 @@ emoji
 seaborn
 matplotlib
 ipykernel
+nbformat
+kaleido
+geopandas
+shapely
+geodatasets
